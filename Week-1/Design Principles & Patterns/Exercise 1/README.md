@@ -1,25 +1,23 @@
-Exercise 1 - Singleton Pattern
+## Singleton Pattern
 Objective
 
 Implement the Singleton Design Pattern to ensure that only one instance of the Logger class exists throughout the application lifecycle.
 
-Description
-
-The Singleton Pattern is a Creational Design Pattern that restricts the instantiation of a class to a single object and provides a global point of access to that instance.
-
 Files
 Logger.java
 SingletonTest.java
-Expected Output
-
+## How to Run
+javac Logger.java SingletonTest.java
+java SingletonTest
+## Expected Output
 Logger Instance Created
-
 LOG: First Message
-
 LOG: Second Message
-
 Only one Logger instance exists.
+Design Pattern Used
 
-Result
+Singleton Pattern (Creational Design Pattern)
 
-Successfully implemented the Singleton Design Pattern and verified that only one instance of the Logger class is created.
+## Author
+
+Nilanjan Ghosh
